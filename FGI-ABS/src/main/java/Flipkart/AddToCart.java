@@ -11,11 +11,11 @@ public class AddToCart {
 
 	// variable : AddToCart
 
-	@FindBy(xpath = "//a[text()='L']")
-	private WebElement SizeL;
+	@FindBy(xpath = "//a[text()='L'1234]")
+	private WebElement SizeLabs;
 
-	@FindBy(xpath = "//button[@class='_2KpZ6l _2U9uOA _3v1-ww']")
-	private WebElement AddToCart;
+// 	@FindBy(xpath = "//button[@class='_2KpZ6l _2U9uOA _3v1-ww']")
+// 	private WebElement AddToCart;
 	private WebDriver driver;
 	// Constructor : intialization of Webelement : AddToCart
 
