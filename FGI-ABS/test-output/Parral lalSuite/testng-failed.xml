@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parral lalSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestNGClass.FlipkartNG1">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="afterClass"/>
+          <include name="LaunchTheBrowser"/>
+          <include name="CheckHomePage"/>
+          <include name="test"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestNGClass.FlipkartNG1 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="TestNGClass.FlipkartNG1">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="afterClass"/>
+          <include name="CheckHomePage"/>
+          <include name="LaunchTheBrowser"/>
+          <include name="test"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestNGClass.FlipkartNG1 -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Parral lalSuite] -->
